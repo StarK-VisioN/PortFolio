@@ -119,7 +119,7 @@ export const projects = [
     image: interviewPrepAi,
     tags: ["React JS", "Node.js", "MongoDB", "Express.js", "Google gemini API", "Tailwind CSS"],
     github: "https://github.com/StarK-VisioN/PrepPilot.git",
-    webapp: "https://globeverse.onrender.com/",
+    webapp: "https://prep-pilot-sssb.vercel.app/",
   },
   {
     id: 1,
