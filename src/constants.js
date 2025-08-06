@@ -30,6 +30,7 @@ import pawsomeLogo from './assets/work_logo/PawSome.jpg';
 import todoLogo from './assets/work_logo/Todo.jpg';
 import wanderlustLogo from './assets/work_logo/Wanderlust.jpg';
 import weatherappLogo from './assets/work_logo/WeatherApp.jpg';
+import interviewPrepAi from './assets/work_logo/InterviewPrep.jpg';
 
 
 
@@ -113,6 +114,15 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "InterviewPrepAI",
+    description: "InterviewPrepAI is a smart web application designed to streamline and enhance interview preparation. Users can generate role-specific interview questions, reveal suggested answers on demand, and dive deeper into core concepts. With features like topic organization, responsive UI, and AI-powered guidance, it offers a focused and customizable learning experience. Built using React, Vite, and Tailwind CSS, it ensures fast performance and seamless usage across devices.",
+    image: interviewPrepAi,
+    tags: ["React JS", "Node.js", "MongoDB", "Express.js", "Google gemini API", "Tailwind CSS"],
+    github: "https://github.com/StarK-VisioN/PrepPilot.git",
+    webapp: "https://globeverse.onrender.com/",
+  },
+  {
+    id: 1,
     title: "GlobVerse",
     description: "GlobeVerse is an interactive web app that lets users explore countries, learning about their history, culture, and geography. With features like search, filters, and detailed country profiles, it offers an engaging educational experience. Built with React, it’s mobile-responsive and optimized for all devices.",
     image: globeverseLogo,
@@ -121,7 +131,7 @@ export const projects = [
     webapp: "https://globeverse.onrender.com/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Smart Todo App",
     description: "A lightweight and responsive Todo List app built with React, Vite, and Tailwind CSS. Features dark/light mode, persistent todos via localStorage, and smooth UI interactions. Deployed on Render.",
     image: todoLogo,
@@ -130,7 +140,7 @@ export const projects = [
     webapp: "https://todo-app-gnld.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Wanderlust",
     description:
       "Wanderlust is a responsive travel booking website offering destination listings, package details, user reviews, and booking forms. Designed with modern UI and engaging visuals for a seamless trip planning experience.",
@@ -140,7 +150,7 @@ export const projects = [
     webapp: "https://wanderlust-j3xd.onrender.com/listings",
   },
   {
-    id: 3,
+    id: 4,
     title: "PawSome",
     description: "PawSome is a user-to-user pet adoption platform that connects pet owners with potential adopters.",
     image: pawsomeLogo,
@@ -149,7 +159,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather App",
     description: "A React-based weather app that fetches data from a free API to provide weather forecasts for various locations. This project helped me learn how to integrate and use APIs effectively within a React application.",
     image: weatherappLogo,
