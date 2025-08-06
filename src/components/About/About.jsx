@@ -51,7 +51,7 @@ function About() {
 
           {/* 5th - Resume btn */}
           <a
-            href="https://drive.google.com/file/d/1nn0nD8Kc6qVsKm2q8M4ZBDiyINwab5t_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DsZML7ccT8oGUlH7YRWP2eyaRs9zA4N7/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block py-1 px-2 rounded-md mt-5 text-lg font-bold transition duration-20 transform hover:scale-105 bg-white text-black"
