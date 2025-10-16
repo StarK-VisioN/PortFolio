@@ -26,11 +26,13 @@ import mgmLogo from './assets/education_logo/mgm.jpg';
 
 // Project Section Logo's
 import globeverseLogo from './assets/work_logo/GlobVerse.jpg';
-import pawsomeLogo from './assets/work_logo/PawSome.jpg';
-import todoLogo from './assets/work_logo/Todo.jpg';
-import wanderlustLogo from './assets/work_logo/Wanderlust.jpg';
-import weatherappLogo from './assets/work_logo/WeatherApp.jpg';
+// import pawsomeLogo from './assets/work_logo/PawSome.jpg';
+// import todoLogo from './assets/work_logo/Todo.jpg';
+// import wanderlustLogo from './assets/work_logo/Wanderlust.jpg';
+// import weatherappLogo from './assets/work_logo/WeatherApp.jpg';
 import interviewPrepAi from './assets/work_logo/InterviewPrep.jpg';
+import atherAI from './assets/work_logo/AtherAI.png';
+import IMS from './assets/work_logo/IMS.png';
 
 
 
@@ -114,6 +116,24 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Buoy IMS",
+    description: "Custom-built, web-based inventory and billing management system designed specifically for a buoy manufacturing company. The platform streamlines inventory tracking, production management, and billing—ensuring operational efficiency and real-time visibility.",
+    image: IMS,
+    tags: ["React JS", "Node.js", "PostgreSQL", "Express.js", "Tailwind CSS"],
+    github: "https://github.com/StarK-VisioN/rotoSpinTech.git",
+    webapp: "https://rotospintech.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Ather.AI",
+    description: "AetherAI is a fully functional AI SaaS platform built with the PERN stack (PostgreSQL, Express, React, Node.js).It provides AI-powered tools for content creation, image editing, and resume analysis, all integrated with subscription billing to unlock premium features.",
+    image: atherAI,
+    tags: ["React JS", "Node.js", "PostgreSQL", "Express.js", "Google gemini API", "Tailwind CSS", "Clerk", "Clipdrop"],
+    github: "https://github.com/StarK-VisioN/Aether.AI.git",
+    webapp: "https://aether-ai-xi.vercel.app/",
+  },
+  {
+    id: 2,
     title: "InterviewPrepAI",
     description: "InterviewPrepAI is a smart web application designed to streamline and enhance interview preparation. Users can generate role-specific interview questions, reveal suggested answers on demand, and dive deeper into core concepts. With features like topic organization, responsive UI, and AI-powered guidance, it offers a focused and customizable learning experience. Built using React, Vite, and Tailwind CSS, it ensures fast performance and seamless usage across devices.",
     image: interviewPrepAi,
@@ -122,7 +142,7 @@ export const projects = [
     webapp: "https://prep-pilot-sssb.vercel.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "GlobVerse",
     description: "GlobeVerse is an interactive web app that lets users explore countries, learning about their history, culture, and geography. With features like search, filters, and detailed country profiles, it offers an engaging educational experience. Built with React, it’s mobile-responsive and optimized for all devices.",
     image: globeverseLogo,
@@ -130,41 +150,5 @@ export const projects = [
     github: "https://github.com/StarK-VisioN/GlobeVerse.git",
     webapp: "https://globeverse.onrender.com/",
   },
-  {
-    id: 2,
-    title: "Smart Todo App",
-    description: "A lightweight and responsive Todo List app built with React, Vite, and Tailwind CSS. Features dark/light mode, persistent todos via localStorage, and smooth UI interactions. Deployed on Render.",
-    image: todoLogo,
-    tags: ["React JS", "Vite", "Tailwind CSS"],
-    github: "https://github.com/StarK-VisioN/Todo-App.git",
-    webapp: "https://todo-app-gnld.onrender.com/",
-  },
-  {
-    id: 3,
-    title: "Wanderlust",
-    description:
-      "Wanderlust is a responsive travel booking website offering destination listings, package details, user reviews, and booking forms. Designed with modern UI and engaging visuals for a seamless trip planning experience.",
-    image: wanderlustLogo,
-    tags: ["Node.js", "Express", "MongoDB", "EJS", "Passport.js", "Cloudinary", "JavaScript"],
-    github: "https://github.com/StarK-VisioN/Wanderlust.git",
-    webapp: "https://wanderlust-j3xd.onrender.com/listings",
-  },
-  {
-    id: 4,
-    title: "PawSome",
-    description: "PawSome is a user-to-user pet adoption platform that connects pet owners with potential adopters.",
-    image: pawsomeLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express"],
-    github: "https://github.com/StarK-VisioN/Pet-Adoption.git",
-    webapp: "",
-  },
-  {
-    id: 5,
-    title: "Weather App",
-    description: "A React-based weather app that fetches data from a free API to provide weather forecasts for various locations. This project helped me learn how to integrate and use APIs effectively within a React application.",
-    image: weatherappLogo,
-    tags: ["React", "Vite", "Formik", "CSS", "API"],
-    github: "https://github.com/StarK-VisioN/WeatherApp.git",
-    webapp: "",
-  },
+  
 ];
