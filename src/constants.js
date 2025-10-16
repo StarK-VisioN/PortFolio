@@ -18,6 +18,7 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import renderLogo from './assets/tech_logo/render.png';
+import postgreSQL from './assets/tech_logo/postgreSQL.jpeg';
 
 // Education Section Logo's
 import psbaLogo from './assets/education_logo/psba.png';
@@ -56,6 +57,7 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'PostgreSQL', logo: postgreSQL },
     ],
   },
   {
